@@ -79,7 +79,8 @@ This project presents a Power BI dashboard designed to analyze financial perform
 
 ## ⭐ Feedback
 
-If you found this project insightful, feel free to share feedback or give this repository a ⭐.
+If you found this project insightful, feel free to share feedback or give this repository a ⭐. 
+Feel free to connect me on linked in : https://www.linkedin.com/in/furqaan-panwala-6a316b160/
 
 ---
 
