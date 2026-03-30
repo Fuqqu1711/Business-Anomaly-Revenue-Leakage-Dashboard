@@ -1,89 +1,81 @@
-# 💰 Financial Performance & Revenue Leakage Analysis Dashboard
+# 💰 Financial Performance & Revenue Leakage Analysis
 
-## 📌 Project Overview
-
-This project presents a Power BI dashboard designed to analyze financial performance and identify revenue leakage within a business. The dashboard highlights loss patterns, profit margin impact, high-risk product segments, and geographic regions contributing to revenue decline. It enables stakeholders to quickly detect anomalies, monitor financial health, and take corrective actions.
-
----
-
-## 🎯 Business Objectives
-
-* Measure total revenue leakage and profit margin impact
-* Identify high-loss categories and sub-categories
-* Analyze the effect of discounting on revenue loss
-* Detect regions with highest leakage contribution
-* Provide actionable financial insights for decision-makers
+## 📌 Problem Statement  
+The business was experiencing reduced profitability due to untracked revenue leakage and inefficient discounting strategies. There was limited visibility into which products, categories, and regions were contributing to financial losses.
 
 ---
 
-## 📊 Key Dashboard Features
-
-* **Total Leakage Overview:** Aggregate revenue loss tracking
-* **Profit Margin %:** Impact of leakage on overall profitability
-* **Avg Leakage per Order:** Order-level loss assessment
-* **Leakage %:** Proportion of lost revenue
-* **Leakage Contribution by Category:** Product-level loss distribution
-* **Top Loss-Contributing Sub-Categories:** Deep-dive into high-risk segments
-* **Revenue Leakage by State:** Regional financial risk mapping
-* **Interactive Filters:** Category, Sub-Category, and Date slicers
+## 🎯 Business Objective  
+- Identify sources of revenue leakage across products and regions  
+- Analyze the impact of discounts on profitability  
+- Detect high-risk categories and sub-categories  
+- Monitor profit margin performance  
+- Enable data-driven decisions to reduce financial losses  
 
 ---
 
-## 💡 KPIs Tracked
-
-* Total Leakage Amount
-* Profit Margin %
-* Average Leakage per Order
-* Leakage Percentage
-* Category-wise Leakage Contribution
-* State-wise Leakage Distribution
+## 📊 Dataset  
+- Sales and financial transaction dataset  
+- Includes order-level revenue, discount, category, and regional data  
+- ~[Add Approx Record Count] records  
 
 ---
 
-## 🛠 Tools & Technologies Used
-
-* **Power BI** – Data modeling and interactive dashboard creation
-* **DAX (Data Analysis Expressions)** – Custom measures and calculations
-* **Excel** – Data preprocessing and cleaning
-* **GitHub** – Project hosting and documentation
-
----
-
-## 📈 Analytical Techniques Applied
-
-* Financial anomaly detection
-* Discount impact analysis
-* Category and sub-category contribution analysis
-* Geographic revenue risk mapping
-* KPI-driven financial monitoring
+## 📈 Key KPIs  
+- Total Revenue Leakage: 156K  
+- Profit Margin: -33.31%  
+- Average Leakage per Order: 83.45  
+- Leakage Percentage: 18.72%  
 
 ---
 
-## 📂 Repository Contents
+## 🔍 Key Insights  
 
-* `Financial_Revenue_Leakage_Dashboard.pbix` – Power BI dashboard file
-* `Data/` – Raw and cleaned datasets
-* `Screenshots/` – Dashboard preview images
-* `README.md` – Project documentation
-
----
-
-## 🧠 Learning Outcomes
-
-* Building financial performance dashboards in Power BI
-* Writing business-focused DAX measures
-* Designing executive-level financial reports
-* Transforming raw financial data into actionable insights
+- High discount levels are the primary driver of revenue leakage, significantly impacting profit margins  
+- Certain sub-categories contribute disproportionately to total losses, indicating pricing or cost inefficiencies  
+- A few regions/states account for the majority of leakage, suggesting localized operational or pricing issues  
+- Negative profit margins highlight that discount strategies are not aligned with profitability goals  
+- Specific categories show consistent leakage trends, indicating structural pricing issues  
 
 ---
 
-## ⭐ Feedback
+## 💡 Business Recommendations  
 
-If you found this project insightful, feel free to share feedback or give this repository a ⭐. 
-Feel free to connect me on linked in : https://www.linkedin.com/in/furqaan-panwala-6a316b160/
+- Optimize discount strategies to balance customer acquisition and profitability  
+- Implement pricing controls for high-loss sub-categories  
+- Focus corrective actions on regions with highest leakage contribution  
+- Introduce margin monitoring KPIs for real-time financial tracking  
+- Conduct periodic anomaly detection to prevent future revenue leakage  
 
 ---
 
-## 🏷 Hashtags
+## 🛠 Tools & Technologies  
+- Power BI – Dashboard development  
+- DAX – Financial KPIs and calculations  
+- SQL / Excel – Data preparation  
 
-#PowerBI #FinancialAnalysis #RevenueLeakage #DataAnalytics #BusinessIntelligence #DashboardDesign #DataVisualization #Fuqqu1711
+---
+
+## 📊 Dashboard Features  
+- Revenue Leakage Overview  
+- Profit Margin Analysis  
+- Discount Impact Analysis  
+- Category & Sub-Category Loss Breakdown  
+- Geographic Leakage Distribution  
+- Interactive Filters for dynamic analysis  
+
+---
+
+## 📂 Repository Contents  
+- `Financial_Revenue_Leakage_Dashboard.pbix` – Power BI dashboard  
+- `Data/` – Dataset files  
+- `Screenshots/` – Dashboard visuals  
+- `README.md` – Documentation  
+
+---
+
+## 🧠 Key Learnings  
+- Identified financial inefficiencies using data-driven analysis  
+- Built KPI-driven dashboards for business decision-making  
+- Analyzed discount strategies and their impact on profitability  
+- Transformed raw financial data into actionable insights  
